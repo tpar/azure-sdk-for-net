@@ -7,9 +7,11 @@ resources:
       type: github
       name: Azure/azure-sdk-tools
       endpoint: azure
+      ref: refs/pull/391/merge
     - repository: azure-sdk-build-tools
       type: git
       name: internal/azure-sdk-build-tools
+      ref: refs/pull/135/merge
 
 trigger:
   branches:
